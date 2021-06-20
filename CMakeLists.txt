@@ -9,4 +9,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # add the executable
 add_executable(parenthesis Sequence_paretheses.cpp)
-
+install(TARGETS parenthesis RUNTIME DESTINATION /usr/bin)
